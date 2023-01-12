@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mi Aplicacion</string>
+    <string name="text_username">Nombre de Usuario</string>
+    <string name="text_welcome">Bienvenido</string>
+    <string name="user">Gerard Bedoya</string>
+    <string name="introduction">Introduccion</string>
+    <string name="text_introduction">healthy fitness es una empresa creada pensando en las necesidades actuales que hoy en día son tendencia en la vida de las personas amantes del deporte.nuestro objetivo es brindar ropa deportiva con los más altos estándares de calidad, comodidad y elegancia.nuestro compromiso con el medio ambiente ha hecho que nos centremos en reducir los altos niveles de contaminación, por ello hemos incursionado en el mercado de tejidos elaborados a base de algas, productos que traen consigo una serie de beneficios para la piel; proyectos a los que apuntamos para ser pioneros en la transición de productos amigables con el planeta.</string>
+    <string name="messageerrorUsername">Nombre de usuario incorrecto</string>
+    <string name="txt_fab">Agregar</string>
+    <string name="textemail">Usuario</string>
+    <string name="Name">Nombre</string>
+    <string name="LastName">Apellido</string>
+    <string name="Phone">Telefono</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="save">Guardar</string>
+    <string name="TaskTitle">Titulo</string>
+    <string name="TaskTime">Fecha hora</string>
+    <string name="TaskPlace">Lugar</string>
+    <string name="NewTask">Crear nueva Tarea</string>
+    <string name="prefs_file">com.hbg0503.myapplication.PREFERENCE_FILE_KEY</string>
+</resources>

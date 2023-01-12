@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductoActivity">
+    <TextView
+        android:id="@+id/textView_NombrePA"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="Nombre"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/textView_PrecioPA"
+        android:layout_width="54dp"
+        android:layout_height="33dp"
+        android:text="Precio"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <TextView
+        android:id="@+id/textView_DetallePA"
+        android:layout_width="82dp"
+        android:layout_height="44dp"
+        android:text="Detalle"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <ImageView
+        android:id="@+id/imageViewAP"
+        android:layout_width="154dp"
+        android:layout_height="153dp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/textView_DetallePA"
+        app:srcCompat="@drawable/fi"
+        tools:layout_editor_absoluteX="152dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onEditarP"
+        android:text="editar">
+
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text_username">Username</string>
+    <string name="text_welcome">Welcome</string>
+    <string name="user">Gerard Bedoya</string>
+    <string name="introduction">Introduction</string>
+    <string name="text_introduction">healthy fitness is a company created, thinking about the current needs that today are a trend in the lives of people who love sports.our goal is to provide sportswear with the highest quality, comfort, and elegance standards.our commitment to the environment has made us focus on reducing high levels of pollution, for this reason, we have ventured into the market for fabrics made from seaweed, products which bring with them a series of benefits for the skin; projects to which we aim in order to be pioneers in the transition of friendly products with the planet.</string>
+    <string name="messageerrorUsername">Invalite User Name</string>
+    <string name="txt_fab">Add</string>
+    <string name="textemail">User</string>
+    <string name="Name">Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Phone">Phone</string>
+    <string name="txt_password">Password</string>
+    <string name="save">Guardar</string>
+    <string name="TaskTitle">Title</string>
+    <string name="TaskTime">Time</string>
+    <string name="TaskPlace">Place</string>
+    <string name="NewTask">Create New Task</string>
+    <string name="prefs_file">com.hbg0503.myapplication.PREFERENCE_FILE_KEY</string>
+</resources>

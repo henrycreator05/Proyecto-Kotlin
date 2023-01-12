@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="DetailFragment">
+
+    <ImageView
+        android:layout_width="237dp"
+        android:layout_height="209dp"
+        android:src="@drawable/fi" />
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Tarea"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Hora"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvLugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="Lugar"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btEditFD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Edit"
+        android:textStyle="bold"
+        android:textColor="#3A3A3A"
+        android:background="#FFF871CB"/>
+    <Button
+        android:id="@+id/btDeleteFD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Delete Task"
+        android:textStyle="bold"
+        android:textColor="#3A3A3A"
+        android:background="#FFF871CB"/>
+    <Button
+        android:id="@+id/bnconsultarFD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="consultar Task"
+        android:textStyle="bold"
+        android:textColor="#3A3A3A"
+        android:background="#FFF871CB"/>
+
+
+</LinearLayout>
